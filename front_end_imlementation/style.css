@@ -1,0 +1,37 @@
+/* style.css */
+
+/* Fonts */
+.bungee-font {
+    font-family: 'Bungee Spice', cursive;
+}
+
+.sevillana-font {
+    font-family: 'Sevillana', cursive;
+    font-size: 2rem;
+}
+
+.twinkle-font {
+    font-family: 'Twinkle Star', cursive;
+    font-size: 1.2rem;
+}
+
+/* Body Background */
+body {
+    background-color: #fff8f0;
+}
+
+/* Header */
+header {
+    color: #fff;
+    background: linear-gradient(to right, #ff8008, #ffc837);
+}
+
+/* Cards spacing */
+.card {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
